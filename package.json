@@ -3,7 +3,7 @@
   "description": "Just a blogging platform on Heroku.",
   "license": "MIT",
   "badges": {
-    "bitcoin"
+    "bitcoin": "Pross.tip.me"
   }
   "repository": {
     "type": "git",
