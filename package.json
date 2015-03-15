@@ -4,7 +4,7 @@
   "license": "MIT",
   "badges": {
     "bitcoin": "Pross.tip.me"
-  }
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/cobyism/ghost-on-heroku.git"
