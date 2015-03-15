@@ -2,17 +2,20 @@
   "name": "ghost-on-heroku",
   "description": "Just a blogging platform on Heroku.",
   "license": "MIT",
+  "badges": {
+    "bitcoin"
+  }
   "repository": {
     "type": "git",
     "url": "git://github.com/cobyism/ghost-on-heroku.git"
   },
   "bugs": "https://github.com/TryGhost/Ghost/issues",
   "private": true,
-  "version": "latest",
+  "version": "1.0.0",
   "dependencies": {
-    "ghost": "latest",
-    "pg": "latest",
-    "bower": "latest"
+    "ghost": "*",
+    "pg": "*",
+    "bower": "*"
   },
   "engines": {
     "node": "~0.10.0"
