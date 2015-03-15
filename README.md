@@ -1,5 +1,10 @@
 # [Ghost](https://github.com/TryGhost/Ghost) on [Heroku](http://heroku.com)
 
+[![Build Status](https://travis-ci.org/Pross/ghost-on-heroku.svg?branch=master)](https://travis-ci.org/Pross/ghost-on-heroku)
+[![GitHub issues](https://img.shields.io/github/issues/Pross/ghost-on-heroku.svg)](https://github.com/Pross/ghost-on-heroku/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Pross/ghost-on-heroku/master/LICENSE)
+[![Donate Beer](https://img.shields.io/badge/Donate-Beer-brightgreen.svg)](https://www.changetip.com/tipme/Pross)
+
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
 ## Deploying On Heroku
