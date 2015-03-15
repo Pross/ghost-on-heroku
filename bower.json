@@ -1,0 +1,6 @@
+{
+    "name": "themes",
+    "dependencies": {
+        "casper": "https://github.com/TryGhost/Casper.git"
+    }
+}
