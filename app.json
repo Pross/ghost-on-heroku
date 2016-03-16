@@ -6,12 +6,12 @@
   "success_url": "/ghost",
   "addons": [
     "heroku-postgresql",
-    "mandrill"
+    "mailgun"
   ],
   "env": {
     "HEROKU_URL": {
       "description": "The URL of this Heroku app.",
-      "value": "http://YOURAPPNAME.herokuapp.com"
+      "value": "https://YOURAPPNAME.herokuapp.com"
     },
     "S3_ACCESS_KEY_ID": {
       "description": "Set your AWS Access Key ID to enable S3 file storage. Leave blank to disable file uploads.",
@@ -28,6 +28,15 @@
     "S3_BUCKET_REGION": {
       "description": "Region of your S3 bucket on AWS, if using S3 file storage.",
       "required": false
+    },
+    "S3_ASSET_HOST_URL": {
+      "description": "Optional custom CDN asset host url, if using S3 file storage.",
+      "required": false
+    },
+    "PGSSLMODE": {
+      "description": "PostgreSQL SSL connection mode. Set to 'require' to force SSL. Unset it to use the default.",
+      "required": false,
+      "value": "require"
     }
   }
 }
